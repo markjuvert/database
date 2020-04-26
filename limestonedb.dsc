@@ -1,0 +1,124 @@
+#
+# FREE format for table translation
+#
+TABLE=translation
+   DELIMITER=,
+   SPACE_FILL=Y
+   QUALIFIER=NONE
+      FIELD=table_name
+         COLUMN=1
+      FIELD=field_name
+         COLUMN=2
+      FIELD=code
+         COLUMN=3
+      FIELD=num_equiv
+         COLUMN=4
+      FIELD=description
+         COLUMN=5
+#
+# FREE format for table collar
+#
+TABLE=collar
+   DELIMITER=,
+   SPACE_FILL=Y
+   QUALIFIER=NONE
+      FIELD=hole_id
+         COLUMN=1
+      FIELD=y
+         COLUMN=2
+      FIELD=x
+         COLUMN=3
+      FIELD=z
+         COLUMN=4
+      FIELD=max_depth
+         COLUMN=5
+#
+# FREE format for table survey
+#
+TABLE=survey
+   DELIMITER=,
+   SPACE_FILL=Y
+   QUALIFIER=NONE
+      FIELD=hole_id
+         COLUMN=1
+      FIELD=depth
+         COLUMN=2
+      FIELD=dip
+         COLUMN=3
+      FIELD=azimuth
+         COLUMN=4
+#
+# FREE format for table assay
+#
+TABLE=assay
+   DELIMITER=,
+   SPACE_FILL=Y
+   QUALIFIER=NONE
+      FIELD=hole_id
+         COLUMN=1
+      FIELD=samp_id
+         COLUMN=2
+      FIELD=depth_from
+         COLUMN=3
+      FIELD=depth_to
+         COLUMN=4
+      FIELD=cao
+         COLUMN=5
+      FIELD=mgo
+         COLUMN=6
+      FIELD=k2ona2o
+         COLUMN=7
+#
+# FREE format for table geology
+#
+TABLE=geology
+   DELIMITER=,
+   SPACE_FILL=Y
+   QUALIFIER=NONE
+      FIELD=hole_id
+         COLUMN=1
+      FIELD=depth_from
+         COLUMN=2
+      FIELD=depth_to
+         COLUMN=3
+      FIELD=lithology
+         COLUMN=4
+      FIELD=redox
+         COLUMN=5
+#
+# FREE format for table styles
+#
+TABLE=styles
+   DELIMITER=,
+   SPACE_FILL=Y
+   QUALIFIER=NONE
+      FIELD=table_name
+         COLUMN=1
+      FIELD=field_name
+         COLUMN=2
+      FIELD=style_type
+         COLUMN=3
+      FIELD=code
+         COLUMN=4
+      FIELD=from_value
+         COLUMN=5
+      FIELD=to_value
+         COLUMN=6
+      FIELD=graphics_colour
+         COLUMN=7
+      FIELD=plotting_colour
+         COLUMN=8
+      FIELD=graphics_pattern
+         COLUMN=9
+      FIELD=plotting_pattern
+         COLUMN=10
+      FIELD=line_colour
+         COLUMN=11
+      FIELD=line_style
+         COLUMN=12
+      FIELD=line_weight
+         COLUMN=13
+      FIELD=marker_style
+         COLUMN=14
+      FIELD=marker_size
+         COLUMN=15
