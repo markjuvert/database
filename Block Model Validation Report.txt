@@ -1,0 +1,33 @@
+                 Surpac to Whittle Block Model Validation Report    Apr 17, 2020
+
+
+
+
+Execution Timestamp: 2020-04-17 00:48:08
+
+
+Testing number of exported blocks in all directions...
+
+
+	Validation that number of blocks less than 1000 passed.
+	Testing each block for validation...
+	Grade values greater than 0 passed.
+	Mcaf values greater than 0 passed.
+	Pcaf values greater than 0 passed.
+	Rock code is of character or integer type passed.
+	Rock code names less than 5 characters passed.
+	Rock code names not null passed.
+	Rock code names not "rock" or "ROCK" passed.
+	Sg attribute is of real type passed.
+	Sg values not negative or null passed.
+	Air blocks all have a 0 sg value passed.
+	Zone attribute is of integer type passed.
+	Zone values are not negative passed.
+	Grade values are not negative passed
+	Volume adjustment attribute is of real type passed.
+	Volume adjustment between 0 and 1 passed.
+
+
+
+Validation of block model passed.
+                                                                     Page 1 of 1
